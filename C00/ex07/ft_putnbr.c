@@ -12,9 +12,9 @@
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_putchar(char r)
 {
-	write(1, &c, 1);
+	write(1, &r, 1);
 }
 
 void	ft_putnbr(int nb)
